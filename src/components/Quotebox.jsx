@@ -20,10 +20,7 @@ function Quotebox() {
     <div>
       <div className="h-screen flex items-center justify-center">
         <div className="w-11/12 lg:w-1/2 md:w-3/4 h-[70%] md:h-[65%] bg-white rounded-xl">
-          <h1 className="text-xs p-2 text-center underline">Today Date :-{ setInterval(() => {
-          // console.log(Date());
-          
-          }, 1000) }</h1>
+          <h1 className="text-xs p-2 text-center underline">Today Date :- {Date()} </h1>
 
           <h1 className="text-3xl m-10 text-center underline underline-offset-8 font-sans">
             Quote of the day
