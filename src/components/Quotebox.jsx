@@ -28,6 +28,7 @@ function Quotebox() {
 
           <div className="w-auto h-[50%]">
             <p className="h-[60%] text-xl md:text-2xl font-serif p-5 md:p-14 font-[550] overflow-y-auto">
+
               "{data.content}"
             </p>
 
@@ -50,6 +51,7 @@ function Quotebox() {
               New Quote
             </button>
           </div>
+            <img src="./src/assets/ZKZg.gif"></img>
         </div>
       </div>
     </div>
